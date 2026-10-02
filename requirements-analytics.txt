@@ -1,0 +1,19 @@
+# Volleyball analytics (Ubuntu, py312, RTX 3050 6GB)
+# Install: conda activate py312 && pip install -r requirements-analytics.txt
+# PyTorch CUDA 12.4 wheels (adjust if your driver needs another cu* index):
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch>=2.5.0
+torchvision>=0.20.0
+ultralytics>=8.3.0
+lap>=0.5.12
+opencv-python>=4.8.0
+pandas>=2.0.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+pyyaml>=6.0
+# Optional (large download); pipeline falls back to EasyOCR if PaddleOCR missing:
+# paddlepaddle>=2.6.0
+# paddleocr>=2.7.0
+easyocr>=1.7.0
+ipywidgets>=8.0.0
+jupyterlab>=4.0.0

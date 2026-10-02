@@ -1,0 +1,6 @@
+path: /media/iflair/New Volume/Volleyball-Anaylitics/dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: player
