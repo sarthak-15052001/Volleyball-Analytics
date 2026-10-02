@@ -1,0 +1,7 @@
+{
+  "best": "/media/iflair/New Volume/Volleyball-Anaylitics/models/volleyball_ball_best.pt",
+  "epochs": 30,
+  "classes": {
+    "0": "ball"
+  }
+}
